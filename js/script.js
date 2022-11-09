@@ -55,7 +55,7 @@ function addTask() {
     let count = document.getElementById("taskList").childElementCount;
     if (count == 5) {
         document.getElementById("addBtn").disabled = true;
-        alert("Maximum")
+        alert("You've reach the maximum input!")
         
         
     } else if (count < 4) {
