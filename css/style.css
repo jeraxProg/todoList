@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+   
+}
+body {
+    background-color: #140736;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+form {
+    margin: auto;
+    max-width: 100%;
+    width: 500px;
+    height: 550px;
+    box-shadow: 0 4px 50px rgba(160, 142, 142, 0.6);
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+}
+.todoInput {
+    margin-left: 20px;
+}
+.inputTask {
+    border: none;
+    padding: 1rem;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #b5b5b5;
+    border-radius: 10px 0 0 10px ;
+    color: rgb(49, 5, 5);
+    font-size: 20px;
+}
+
+.inputTask:placeholder {
+    color: #b5b5b5;
+}
+
+#addBtn {
+    border: none;
+    width: 25%;
+    height: 50px;
+    background-color: rgb(19, 179, 112) ;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0 ;
+}
+
+#addBtn:hover {
+    background-color: rgb(15, 141, 88) ;
+    color: aliceblue;
+
+}
+#addBtn:active {
+    background-color: rgb(19, 179, 112) ;
+
+}
+ 
+
+#taskList div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+   
+    
+}
+
+
+ .input {
+    background-color:#22124b;
+    height: 40px;
+    font-size: smaller;
+    margin-right: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+
+#editBtn span {
+    background-color: #008CBA;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    
+}
+#editBtn span:hover {
+    background-color: #017196;
+    color: white;
+}
+
+#editBtn span:active {
+    background-color: #008CBA;
+}
+
+#delBtn span {
+    background-color: #cf4444;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#delBtn span:hover {
+    background-color: #963636;
+    color: white;   
+}
+#delBtn span:active {
+    background-color: #cf4444;
+}
+
+#saveBtn span {
+    background-color: rgb(19, 179, 112);
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+#saveBtn span:hover {
+    background-color: rgb(17, 150, 94);
+}
+#saveBtn span:active {
+    background-color: rgb(19, 179, 112);
+}
+
+#demo {
+    text-align: center;
+    color: white;
+}
+
